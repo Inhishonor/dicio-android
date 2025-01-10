@@ -1,1 +1,4 @@
-
+query:
+  - define (word)
+  - (what is|s)|whats the meaning of (word)?
+  - what does (word) mean?
