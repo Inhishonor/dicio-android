@@ -46,6 +46,10 @@ Currently Dicio answers questions about:
 
 Dicio uses [Vosk](https://github.com/alphacep/vosk-api/) as its speech to text (`STT`) engine. In order to be able to run on every phone small models are employed, weighing `~50MB`. The download from [here](https://alphacephei.com/vosk/models) starts automatically whenever needed, so the app language can be changed seamlessly.
 
+## Wake Word
+
+Dicio uses [Open Wake Word](https://github.com/dscripka/openWakeWord) for wake word support. It comes preinstalled with the _Hey Dicio_ wake word. If you would like to use a different wake word, you can either train your own by following this [Jupiter Notebook](https://github.com/dscripka/openWakeWord/blob/main/notebooks/automatic_model_training.ipynb) with this [configuration](./hey_dicio_training_config.yml), or download a new model (from either [Open Wake Word](https://github.com/dscripka/openWakeWord/releases/) or this [collection](https://github.com/fwartner/home-assistant-wakewords-collection)). Once you have downloaded or trained a new model, head to `Settings > Input and output methods > Import custom wake word` and select the `.tflite` model you downloaded.
+
 ## Contributing
 
 Dicio's code is **not only here**! The repository with the *compiler for sentences* language files is at [`dicio-sentences-compiler`](https://github.com/Stypox/dicio-sentences-compiler), the *number parser and formatter* is at [`dicio-numbers`](https://github.com/Stypox/dicio-numbers) and the code for evaluating matching algorithms is at [`dicio-evaluation`](https://github.com/Stypox/dicio-evaluation).
