@@ -269,6 +269,9 @@
     <string name="about_repository_title">Source code repository</string>
     <string name="about_repository_description">Dicio is free and open source, licensed under GPLv3</string>
     <string name="about_repository_link" translatable="false">https://github.com/Stypox/dicio-android</string>
+    <string name="about_wiki_title">Documentation</string>
+    <string name="about_wiki_description">Looking for general information, configuration guides, troubleshooting tips, and more? Check out our wiki!</string>
+    <string name="about_wiki_link">https://dicio.stypox.org/</string>
     <string name="about_issues_title">Found a bug?</string>
     <string name="about_issues_description">Feel free to request new features or report broken things (remember to attach logs)</string>
     <string name="about_issues_link" translatable="false">https://github.com/Stypox/dicio-android/issues</string>
