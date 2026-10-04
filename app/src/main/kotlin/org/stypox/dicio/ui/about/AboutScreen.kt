@@ -20,6 +20,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.BugReport
 import androidx.compose.material.icons.filled.Code
+import androidx.compose.material.icons.filled.CollectionsBookmark
 import androidx.compose.material.icons.filled.ContentCopy
 import androidx.compose.material.icons.filled.Group
 import androidx.compose.material.icons.filled.Policy
@@ -120,6 +121,15 @@ fun AboutScreen(
                     icon = Icons.Default.Code,
                     description = R.string.about_repository_description,
                     link = R.string.about_repository_link
+                )
+            }
+
+            item {
+                AboutItem(
+                    title = R.string.about_wiki_title,
+                    icon = Icons.Default.CollectionsBookmark,
+                    description = R.string.about_wiki_description,
+                    link = R.string.about_wiki_link
                 )
             }
 
